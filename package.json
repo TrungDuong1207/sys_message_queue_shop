@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --config ./jest.config.js",
-    "test-dev": "jest node tests/rabbitmq.test.js"
+    "test-dev": "jest node tests/rabbitmq.test.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
